@@ -1,14 +1,55 @@
 body{
     background-image:url('https://images.paramount.tech/uri/mgid:arc:imageassetref:mtv.com:d2906a58-a278-499a-af13-93a44e50f404?format=webp');
     background-size:cover;
+    color: aliceblue;
 }
 .navbar{
     border:solid white;
     background-color:black;
     display:flex;
     height:100px;
-
 }
+
+ul {
+    list-style:inside;
+    background:black;
+}
+ul li {
+    display:inline-block;
+    position:relative;
+    margin-top: 60px;
+    font-weight: bold;
+}
+
+un li a {
+    display:flex;
+    color:bisque;
+    text-decoration:solid;
+    text-align:right;
+    font-size:xx-large;
+}
+ul li ul.dropdown li {
+    display:flex;
+    margin-block: 5%;
+}
+
+ul li ul.dropdown {
+    width: 60%;
+    background:white;
+    position:relative;
+    z-index: 999;
+    display: none;
+    
+}
+
+ul li a:hover {
+    background: whitesmoke;
+}
+
+ul li:hover ul.dropdown {
+    display: block;
+}
+
 .imageContainer{
     border:solid grey;
     justify-content: center;
@@ -23,23 +64,17 @@ body{
 .iconContainer{
     /* border:solid lime; */
     display:flex;
-    justify-content: space-between;
-    width:30%;
+    justify-content:space-between;
+    width:100%;
 }
 .btnContainer{
     /* border:solid orange; */
     width:100%;
     margin:10px;
 }
-.sidebar{
-    height:100%;
-    background-color: aliceblue;
-    margin-left: 10px;
-}
+
 .logo{
     height:100%;
-    margin-left: 190%;
-
 }
 .mtvLogin{
     width:100px;
@@ -49,7 +84,7 @@ body{
     background-color: green;
     color:yellow;
     font-family:Atial;
-    margin-left:85%;
+    margin-left:75%;
 
 }
 .register{
@@ -60,16 +95,64 @@ body{
     background-color: green;
     color:red;
     font-family:Atial;
-    margin-left:85%;
+    margin-left:75%;
    
 }
 .episode {
     border:solid grey;
     height: 200px;
-    width: 200px;
+    width: 500px;
     display: flex;
 }
 .episode1 {
+    border:solid grey;
+   height: 200px;
+   width: 200px;
+   display: flex;
+}
+.episode2 {
+    border:solid grey;
+   height: 200px;
+   width: 200px;
+   display: flex;
+}
+.episode3 {
+    border:solid grey;
+   height: 200px;
+   width: 200px;
+   display: flex;
+}
+.episode4 {
+    border:solid grey;
+   height: 200px;
+   width: 200px;
+   display: flex;
+}
+.episode5 {
+    border:solid grey;
+    height: 200px;
+    width: 500px;
+    display: flex;
+}
+.episode6 {
+    border:solid grey;
+   height: 200px;
+   width: 200px;
+   display: flex;
+}
+.episode7 {
+    border:solid grey;
+   height: 200px;
+   width: 200px;
+   display: flex;
+}
+.episode8 {
+    border:solid grey;
+   height: 200px;
+   width: 200px;
+   display: flex;
+}
+.episode9 {
     border:solid grey;
    height: 200px;
    width: 200px;
